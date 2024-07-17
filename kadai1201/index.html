@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Design Practice</title>
     <style>
-        @media screen and (max-width:979px ){
-            
-        }
         body{
             background-color: #d7eeff;
         }
@@ -20,7 +17,6 @@
         }
     .section1{
         background-color: #e6f7ff;
-        border:solid 2px #333;
         padding: 20px;
         margin: 20px 0;
         border-radius: 10px;
@@ -28,7 +24,6 @@
         }
     .section2{
         background-color: #ffefd5;
-        border:solid 2px #333;
         padding: 20px;
         margin: 20px 0;
         border-radius: 5px;
@@ -37,11 +32,44 @@
     }
     .section3{
         background-color: #ffc0cd;
-        border:dashed 2px #333;
         padding: 20px;
         margin: 20px 0;
         border-radius: 0px;
         flex;
+    }
+    @media screen and (max-width:979px){
+        #body{
+            background-color: #d7eeff;
+        }
+        #p{
+        font-size: 15px;
+        }
+    #img{
+        width: 10%;
+        height: 10%;
+        }
+    .section1{
+        background-color: #e6f7ff;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 10px;
+        flex;
+        }
+        .section2{
+        background-color: #ffefd5;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px rgba(0,0,0,0,1);
+        flex;
+    }
+    .section3{
+        background-color: #ffc0cd;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 0px;
+        flex;
+    }
     }
     </style>
 </head>
